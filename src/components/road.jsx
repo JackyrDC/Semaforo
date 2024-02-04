@@ -1,12 +1,10 @@
-import Way from 'Ways'
+import Way from './ways'
 
 const Road = (props) =>{
 
     const n_Ways = props.ways
     return(
-        <div>
             <Way orientation={props.orientation}/>
-        </div>
     )
 }
 
